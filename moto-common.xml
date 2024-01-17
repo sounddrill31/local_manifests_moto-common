@@ -21,7 +21,7 @@
         remote="main" revision="13-sm6150" />
     <!-- SM6150 (4.14) -->
     <project path="device/motorola/sm6150-common" name="android_device_motorola_sm6150-common"
-        remote="moto-common" revision="13" />
+        remote="main" revision="13" />
     <project path="device/motorola/sm6150-common-kernel" name="android_device_motorola_sm6150-common-kernel"
         remote="moto-common" revision="13" />
     <project path="device/motorola/hanoip-kernel" name="android_device_motorola_hanoip-kernel"
