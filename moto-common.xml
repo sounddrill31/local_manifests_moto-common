@@ -27,7 +27,7 @@
     <project path="device/motorola/hanoip-kernel" name="android_device_motorola_hanoip-kernel"
         remote="moto-common" revision="13" />
     <project path="device/motorola/hanoip" name="android_device_motorola_hanoip"
-        remote="main" revision="13" />
+        remote="main" revision="13-los" />
     <!-- Vendor Trees -->
     <project path="vendor/motorola/common" name="android_vendor_motorola_common"
         remote="moto-common" revision="13" />
