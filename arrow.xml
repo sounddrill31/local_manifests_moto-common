@@ -5,6 +5,9 @@
   <remove-project name="android_vendor_qcom_opensource_audio-hal_st-hal" />
   <remove-project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
   <remove-project name="platform/external/fastrpc" />
+  <remove-project name="platform/hardware/samsung/nfc" />
+  <remove-project name="platform/hardware/st/nfc" />
+  <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="android_device_qcom_sepolicy" />
   <remove-project name="android_device_qcom_sepolicy_vndr" />
