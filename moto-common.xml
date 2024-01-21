@@ -2,39 +2,40 @@
 <manifest>
     <remote name="moto-common"
         fetch="https://github.com/moto-common/" />
-    <remote name="main"
-        fetch="https://github.com/anoosragh69/" />
     <remote name="aospa"
         fetch="https://github.com/AOSPA/" />
     <remote name="aospa-vendor"
         fetch="https://github.com/ThankYouMario/" />
+    <remote name="targets"
+        fetch="https://github.com/anoosragh69/" />
 
     <!-- Device Trees -->
     <project path="device/motorola/common" name="android_device_motorola_common"
-        remote="main" revision="13" >
+        remote="moto-common" revision="13" >
         <linkfile src="hardware/qcom/os_pickup_ext.mk" dest="vendor/qcom/opensource/Android.mk" />
     </project>
     <project path="device/motorola/targets" name="android_device_motorola_targets"
+        remote="targets" revision="13" />
+    <!-- SM4350 (5.4) -->
+    <project path="kernel/motorola/msm-5.4" name="android_kernel_motorola_msm-5.4"
         remote="moto-common" revision="13" />
-    <!-- SM6125 (4.14) -->
-    <project path="kernel/motorola/msm-4.14" name="android_kernel_motorola_msm-4.14"
-        remote="main" revision="13-sm6150" />
-    <!-- SM6150 (4.14) -->
-    <project path="device/motorola/sm6150-common" name="android_device_motorola_sm6150-common"
-        remote="main" revision="13" />
-    <project path="device/motorola/sm6150-common-kernel" name="android_device_motorola_sm6150-common-kernel"
+    <project path="device/motorola/sm4350-common-kernel" name="android_device_motorola_sm4350-common-kernel"
         remote="moto-common" revision="13" />
-    <project path="device/motorola/hanoip-kernel" name="android_device_motorola_hanoip-kernel"
+    <project path="device/motorola/sm4350-common" name="android_device_motorola_sm4350-common"
         remote="moto-common" revision="13" />
-    <project path="device/motorola/hanoip" name="android_device_motorola_hanoip"
-        remote="main" revision="13" />
+    <project path="device/motorola/milanf" name="android_device_motorola_milanf"
+        remote="moto-common" revision="13" />
+    <project path="device/motorola/rhodep-kernel" name="android_device_motorola_rhodep-kernel"
+        remote="moto-common" revision="13" />
+    <project path="device/motorola/rhodep" name="android_device_motorola_rhodep"
+        remote="moto-common" revision="13" />
     <!-- Vendor Trees -->
     <project path="vendor/motorola/common" name="android_vendor_motorola_common"
+        remote="moto-common" revision="13" />>
+    <!-- SM4350 (5.4) -->
+    <project path="vendor/motorola/sm4350-common" name="android_vendor_motorola_sm4350-common"
         remote="moto-common" revision="13" />
-    <!-- SM6150 (4.14) -->
-    <project path="vendor/motorola/sm6150-common" name="android_vendor_motorola_sm6150-common"
-        remote="moto-common" revision="13" />
-    <project path="vendor/motorola/hanoip" name="android_vendor_motorola_hanoip"
+    <project path="vendor/motorola/rhodep" name="android_vendor_motorola_rhodep"
         remote="moto-common" revision="13" />
 
     <!-- Supporting Repos -->
@@ -120,5 +121,5 @@
     <project path="hardware/motorola" name="android_hardware_motorola"
         remote="moto-common" revision="13" />
     <project path="vendor/sony/timekeep" name="android_vendor_sony_timekeep"
-        remote="moto-common" revision="12" />
+        remote="moto-common" revision="master" />
 </manifest>
