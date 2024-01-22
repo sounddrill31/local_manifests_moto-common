@@ -7,7 +7,7 @@
     <remote name="aospa-vendor"
         fetch="https://github.com/ThankYouMario/" />
     <remote name="targets"
-        fetch="https://github.com/anoosragh69/" />
+        fetch="https://github.com/sounddrill31/" />
 
     <!-- Device Trees -->
     <project path="device/motorola/common" name="android_device_motorola_common"
