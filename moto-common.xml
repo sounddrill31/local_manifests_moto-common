@@ -11,7 +11,7 @@
 
     <!-- Device Trees -->
     <project path="device/motorola/common" name="android_device_motorola_common"
-        remote="moto-common" revision="13" >
+        remote="moto-common" revision="14" >
         <linkfile src="hardware/qcom/os_pickup_ext.mk" dest="vendor/qcom/opensource/Android.mk" />
     </project>
     <project path="device/motorola/targets" name="android_device_motorola_targets"
@@ -20,30 +20,30 @@
     <project path="kernel/motorola/msm-5.4" name="android_kernel_motorola_msm-5.4"
         remote="moto-common" revision="staging/14" />
     <project path="device/motorola/sm4350-common-kernel" name="android_device_motorola_sm4350-common-kernel"
-        remote="moto-common" revision="13" />
+        remote="moto-common" revision="14" />
     <project path="device/motorola/sm4350-common" name="android_device_motorola_sm4350-common"
-        remote="moto-common" revision="13" />
+        remote="moto-common" revision="14" />
     <project path="device/motorola/milanf" name="android_device_motorola_milanf"
-        remote="moto-common" revision="13" />
+        remote="moto-common" revision="14" />
     <project path="device/motorola/rhodep-kernel" name="android_device_motorola_rhodep-kernel"
-        remote="moto-common" revision="13" />
+        remote="moto-common" revision="14" />
     <project path="device/motorola/rhodep" name="android_device_motorola_rhodep"
-        remote="moto-common" revision="13" />
+        remote="moto-common" revision="14" />
     <!-- Vendor Trees -->
     <project path="vendor/motorola/common" name="android_vendor_motorola_common"
-        remote="moto-common" revision="13" />>
+        remote="moto-common" revision="14" />>
     <!-- SM4350 (5.4) -->
     <project path="vendor/motorola/sm4350-common" name="android_vendor_motorola_sm4350-common"
-        remote="moto-common" revision="13" />
+        remote="moto-common" revision="14" />
     <project path="vendor/motorola/rhodep" name="android_vendor_motorola_rhodep"
-        remote="moto-common" revision="13" />
+        remote="moto-common" revision="14" />
 
     <!-- Supporting Repos -->
     <!-- QCOM Common -->
     <project path="device/qcom/common" name="android_device_qcom_common"
-        remote="aospa" revision="topaz" />
+        remote="aospa" revision="uvite" />
     <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common"
-        remote="aospa-vendor" revision="topaz" />
+        remote="aospa-vendor" revision="uvite" />
     <!-- HALs -->
     <project path="vendor/qcom/opensource/audio/sm8150" name="platform_vendor_qcom_opensource_audio_sm8150"
         remote="moto-common" revision="master" />
@@ -68,28 +68,28 @@
     <project path="vendor/qcom/opensource/gps-legacy" name="platform_vendor_qcom_opensource_gps-legacy"
         remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator"
-        remote="moto-common" revision="13" />
+        remote="moto-common" revision="master" />
     <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl"
         remote="moto-common" revision="master" />
     <project path="hardware/samsung/nfc" name="platform_hardware_samsung_nfc"
         remote="moto-common" revision="master" />
     <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc"
-        remote="moto-common" revision="13" />
+        remote="moto-common" revision="14" />
     <project path="hardware/st/nfc" name="platform_hardware_st_nfc"
         remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/recovery-ext" name="platform_vendor_qcom_opensource_recovery-ext"
         remote="moto-common" revision="master" />
     <!-- Misc -->
     <project path="device/qcom/qssi" name="android_device_qcom_qssi"
-        remote="aospa" revision="topaz" />
+        remote="aospa" revision="uvite" />
     <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr"
-        remote="aospa" revision="topaz" />
+        remote="aospa" revision="uvite" />
     <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy"
-        remote="aospa" revision="topaz" />
+        remote="aospa" revision="uvite" />
     <project path="device/sony/sepolicy" name="android_device_sony_sepolicy"
         remote="moto-common" revision="master" />
     <project path="external/fastrpc" name="android_external_fastrpc"
-        remote="aospa" revision="topaz" />
+        remote="aospa" revision="uvite" />
     <project path="prebuilts/clang/host/linux-x86/clang-r383902" name="platform_prebuilts_clang_host_linux-x86_clang-r383902"
         remote="moto-common" revision="master" />
     <project path="vendor/goodix" name="platform_vendor_goodix"
@@ -109,17 +109,17 @@
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr-legacy-um"
         remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/audio/st-hal" name="platform_vendor_qcom_opensource_audio_st-hal"
-        remote="moto-common" revision="13" />
+        remote="moto-common" revision="master" />
     <project path="external/json-c" name="platform_external_json-c"
-        remote="moto-common" revision="13" />
+        remote="moto-common" revision="master" />
     <project path="external/ant-wireless/hidl" name="external_ant-wireless_hidl"
         remote="moto-common" revision="master" />
     <project path="system/qcom" name="android_system_qcom"
         remote="moto-common" revision="master" />
     <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony"
-        remote="moto-common" revision="13" />
+        remote="moto-common" revision="master" />
     <project path="hardware/motorola" name="android_hardware_motorola"
-        remote="moto-common" revision="13" />
+        remote="moto-common" revision="master" />
     <project path="vendor/sony/timekeep" name="android_vendor_sony_timekeep"
         remote="moto-common" revision="master" />
 </manifest>
