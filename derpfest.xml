@@ -21,7 +21,7 @@
   <remove-project name="vendor_qcom_opensource_thermal-engine" />
   <remove-project name="vendor_qcom_opensource_vibrator" />
   <remove-project name="external_ant-wireless_hidl" />
-  <<remove-project name="external_json-c" />
+  <remove-project name="external_json-c" />
   <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" remote="moto-common" revision="master">
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
