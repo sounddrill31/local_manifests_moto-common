@@ -15,7 +15,7 @@
         <linkfile src="hardware/qcom/os_pickup_ext.mk" dest="vendor/qcom/opensource/Android.mk" />
     </project>
     <project path="device/motorola/targets" name="android_device_motorola_targets"
-        remote="moto-common" revision="13" />
+        remote="main" revision="master" />
     <!-- SM6125 (4.14) -->
     <project path="kernel/motorola/msm-4.14" name="android_kernel_motorola_msm-4.14"
         remote="main" revision="13-sm6150" />
