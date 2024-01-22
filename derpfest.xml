@@ -6,7 +6,7 @@
   <remove-project name="vendor_qcom_opensource_audio-hal_st-hal" />
   <remove-project name="vendor_qcom_opensource_data-ipa-cfg-mgr" />
   <remove-project name="vendor_qcom_opensource_fm-commonsys" />
-  <remove-project name="android_vendor_qcom_opensource_audio-hal_st-hal-ar" />
+  <!--<remove-project name="android_vendor_qcom_opensource_audio-hal_st-hal-ar" />-->
   <remove-project name="android_vendor_qcom_opensource_core-utils-vendor" />
   <remove-project name="platform/external/fastrpc" />
   <remove-project name="platform/hardware/nxp/nfc" />
