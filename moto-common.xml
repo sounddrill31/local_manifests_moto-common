@@ -181,10 +181,10 @@
     <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common"
         remote="aospa-vendor" revision="uvite" />
     <!-- MTK Common -->
-    <project path="device/mediatek/common" name="android_device_mediatek_common"
+    <!--<project path="device/mediatek/common" name="android_device_mediatek_common"
         remote="moto-common" revision="master" />
     <project path="vendor/mediatek/common" name="android_vendor_mediatek_common"
-        remote="moto-common-vendor" revision="master" />
+        remote="moto-common-vendor" revision="master" />-->
     <!-- HALs -->
     <project path="vendor/qcom/opensource/audio/sm8150" name="platform_vendor_qcom_opensource_audio_sm8150"
         remote="moto-common" revision="master" />
