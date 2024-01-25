@@ -2,7 +2,11 @@
 <manifest>
   <remote name="moto-common" fetch="https://github.com/moto-common/" />
   <remove-project name="hardware_qcom-caf_common" />
-  <remove-project name="vendor_qcom_opensource_data-ipa-cfg-mgr" />
+  <remove-project name="hardware_qcom_display" />
+  <remove-project name="hardware_qcom_audio" />
+  <remove-project name="platform/external/tensorflow" />
+  <remove-project name="hardware_qcom_wlan" />
+<remove-project name="vendor_qcom_opensource_data-ipa-cfg-mgr" />
   <remove-project name="hardware_qcom_thermal" />
   <remove-project name="vendor_qcom_opensource_audio-hal_st-hal" />
   <remove-project name="vendor_qcom_opensource_audio-hal_st-hal-ar" />
