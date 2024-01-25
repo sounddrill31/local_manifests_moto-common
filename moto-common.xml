@@ -24,6 +24,8 @@
     </project>
     <project path="device/motorola/targets" name="android_device_motorola_targets"
         remote="targets" revision="master" />
+    <project path="device/motorola/targets/include/headers" name="android_device_motorola_targets_include_headers"
+        remote="moto-common" revision="master" />
     <!-- MT6879 (5.10) -->
     <project path="kernel/motorola/mt6879" name="android_kernel_motorola_mt6879"
         remote="moto-common" revision="14" />
