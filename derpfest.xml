@@ -7,7 +7,7 @@
   <remove-project name="hardware_qcom_media" />
   <!--<remove-project name="hardware_google_pixel" />-->
   <!--<remove-project name="platform/external/tensorflow" />-->
-  <remove-project name="hardware_qcom_wlan" />
+  <!--<remove-project name="hardware_qcom_wlan" />-->
 <remove-project name="vendor_qcom_opensource_data-ipa-cfg-mgr" />
   <remove-project name="hardware_qcom_thermal" />
   <remove-project name="vendor_qcom_opensource_audio-hal_st-hal" />
