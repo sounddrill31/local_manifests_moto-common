@@ -12,6 +12,8 @@
         fetch="https://github.com/sounddrill31/" />
     <remote  name="iczyn"
            fetch="https://github.com/IczYn" />
+    <remote  name="sounddrill"
+           fetch="https://github.com/sounddrill31" />
     <!-- CLO -->
     <remote name="clo-la"
             fetch="https://git.codelinaro.org/clo/la"
@@ -126,7 +128,7 @@
         remote="moto-common" revision="14" />
     <!-- Vendor Trees -->
     <project path="vendor/motorola/common" name="android_vendor_motorola_common"
-        remote="moto-common" revision="14" />
+        remote="sounddrill" revision="14" />
     <!-- MT6879 (5.10) -->
     <project path="vendor/motorola/mt6879-common" name="android_vendor_motorola_mt6879-common"
         remote="moto-common" revision="14" />
